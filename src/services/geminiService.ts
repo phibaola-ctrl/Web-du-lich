@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { TravelPlan, UserPreferences } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAwEgh5JB4uOU3OraHW_AsJkjM-ow9JgFc" });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const RESPONSE_SCHEMA = {
   type: Type.OBJECT,

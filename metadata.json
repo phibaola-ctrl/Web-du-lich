@@ -1,10 +1,6 @@
 {
-  "name": "Remix: Phi: Công cụ Lập kế hoạch Du lịch Thông minh",
+  "name": "Phi: Công cụ Lập kế hoạch Du lịch Thông minh",
   "description": "Ứng dụng lập kế hoạch du lịch cao cấp sử dụng AI, tạo lịch trình chi tiết theo từng ngày, hành trình đầy cảm hứng và lộ trình bản đồ tối ưu.",
   "requestFramePermissions": [],
-  "majorCapabilities": [
-    "Lập kế hoạch du lịch bằng AI",
-    "Phân tích chi phí",
-    "Lịch trình tương tác"
-  ]
+  "majorCapabilities": ["Lập kế hoạch du lịch bằng AI", "Phân tích chi phí", "Lịch trình tương tác"]
 }
